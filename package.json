@@ -1,0 +1,18 @@
+{
+  "name": "support-blinkt",
+  "version": "0.0.1",
+  "description": "Flowdock to Blinkt linked",
+  "main": "app.coffee",
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "coffee-script": "^1.12.7",
+    "color-convert": "^1.9.0",
+    "flowdock": "^0.9.1",
+    "lodash": "^4.17.4",
+    "node-blinkt": "^1.0.1",
+    "sentiment": "^4.0.1"
+  }
+}
