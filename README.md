@@ -1,6 +1,6 @@
 # A Pager.
 
-![A Pi Zero W with three glowing lights](/img/finished.jpg)
+![A Pi Zero W with three glowing lights](https://github.com/resin-io-playground/SupportBlinkt/raw/master/img/finished.jpg)
 
 So recently a few projects have aligned, and an old idea has come back off the shelf.  A Thing that connects
 to the Internet and lets me know when a support ticket comes in.  Many people would call this a pager, and indeed
@@ -51,7 +51,7 @@ They provide a good API and SDK that uses web streams to provide a continual seq
 function, in my code this is `stream.on('message', (message) ->` and this forms the entry point for the bulk of
 the code.
 
-### [Sentiment](https://www.npmjs.com/package/sentiment)
+### [Sentiment](https://www.npmjs.com/package/sentiment) Analysis
 
 Since I had three-colour LEDs I decided to use them, and went for sentiment analysis. There's a nifty npm library
 called [sentiment](https://www.npmjs.com/package/sentiment) that takes a guess at the tone of a block of text. It 
